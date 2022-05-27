@@ -1,0 +1,176 @@
+.tutorheader_section {
+  position: relative;
+  height: 70vh;
+  margin-top: 5%;
+  background: linear-gradient(rgba(59, 58, 58, 0.6), rgba(62, 59, 59, 0.7)),
+    url("/src/Assests/Tutor/tutor.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.tutor_text {
+  width: 40%;
+  position: relative;
+  top: 40%;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.main_tutorheading {
+  font-weight: bold;
+}
+.search_box {
+  width: 69%;
+  margin: auto;
+  padding: 15px;
+  margin-top: -40px;
+  position: relative;
+  background-color: #0d355f;
+}
+.search_back {
+  background-image: linear-gradient(
+    to top,
+    #226bb3 0%,
+    #0f467d 1%,
+    #13508c 100%
+  );
+  padding: 15px;
+}
+.search_bar {
+  height: 7vh;
+}
+
+.tutor_button {
+  border: none;
+  padding: 10px;
+  width: 100%;
+  color: white;
+  border-radius: 10px;
+  margin-top: 16px;
+  font-size: 18px;
+  background-color: #ffcc00;
+}
+.tutor_button:hover
+{
+  cursor: pointer;
+  color: white;
+  background-color: #fe5722;
+}
+
+.tutor_card
+{
+    padding: 20px;
+    color: gray;
+    border-radius: 15px;
+    background-color: white;
+}
+.tutor_message
+{
+    background-color: #ffcc00;
+    color: white;
+    margin-top: 20px;
+}
+.tutor_message:hover
+{
+  background-color: #0d355f;
+  cursor: pointer;
+  color: white;
+}
+.tutor_image
+{
+    width: 100%;
+    height: 170px;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffcc00;
+    color: #13508c;
+    border-radius:  10px ;
+                                
+}
+.description
+{
+    width: 500px;
+    justify-content: center;
+    text-align: justify;
+}
+
+.tutor_left
+{
+  margin: auto;
+}
+.tutor_right
+{
+  padding: 25px;
+  border-radius: 15px;
+  margin-top: 26px;
+  background-color: white;
+}
+.tutor_right_subject
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  justify-content: space-between;
+  justify-content: space-evenly;
+}
+.bg_font
+{
+  padding: 5px;
+
+  margin-top: 13px;
+  background-color: #fb8662;
+}
+.tutor_right_subject
+{
+   cursor: pointer;
+}
+.calender
+{
+  margin-top: 80px;
+}
+.comment_section
+{
+  padding: 20px;
+  margin-top: 60px;
+  justify-content: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .tutorheader_section {
+    margin-top: 20%;
+  }
+  .tutor_text {
+    width: 64%;
+  }
+.search_bar {
+    height: 4vh;
+  }
+.tutor_card
+{
+    width: 88%;
+     margin: auto;
+    
+}
+.description
+{
+    width: auto;
+   
+}
+.tutor_rate
+{
+  font-size: 16px;
+
+}
+.tutor_image
+{
+  width: 100%;
+  height: 170px;
+
+
+}
+.card_text
+{
+  margin-top: 14px;
+}
+}

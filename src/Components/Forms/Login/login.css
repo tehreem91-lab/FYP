@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap');
+
+.main_wrapper {
+  background-color: #43626f;
+   height: 800px; 
+  background-image: url('/src/Assests/pattern.png');
+}
+
+.inside_wrapper{
+  
+   margin-top: 8%;
+   background-size: cover;
+   height: 500px;
+  border-radius: 7px;
+  background-color:#0d355f ;
+  background-repeat: no-repeat;
+  background-image: url('/src/Assests/pattern.png');
+}
+
+.toggle_btn {
+  background-color: rgb(6, 139, 192);
+  color: white;
+  font-weight: bold;
+  padding: 8px 45px 8px 45px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  font-family: 'Nunito', sans-serif;
+}
+
+.main_heading {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.register_heading {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+.already {
+  color: grey;
+  font-family: 'Nunito', sans-serif;
+}
+
+.move {
+  color: rgb(6, 139, 192);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.input_field {
+  border: none;
+  outline: none;
+  margin: auto;
+  border-radius: 25px !important;
+}
+
+.input_label {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.radio_btn {
+  position: relative;
+  left: 20px;
+}
+
+.gender {
+  color: white;
+  font-weight: 500;
+  font-family: 'Nunito', sans-serif;
+  margin-left: 5px;
+}
+
+.radio_btn1 {
+  position: relative;
+  left: 40px;
+}
+.btn_submit {
+  background-color: rgb(6, 139, 192);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px 45px 8px 45px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  margin: auto;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 20px;
+}
+.IMAGE
+{
+  width: 400px;
+}
+.go_back
+{
+  /* margin-left: 20px; */
+  color: #ffcc00;
+}
+.home_icon
+{
+  position: relative;
+  bottom: 3px;
+}
+@media screen and (max-width: 768px) {
+  .main_heading {
+   
+    text-align: center;
+  }
+  .register_heading {
+    font-size: 19px;
+  }
+  .already {
+    font-size: 15px;
+  }
+  .toggle_btn {
+    padding: 2px 15px 2px 15px;
+  }
+  .toggle_div {
+    text-align: center;
+  }
+  
+ .IMAGE 
+{
+     display: none;
+}
+.main_wrapper
+{
+  height: 820px;
+}
+
+}
+
+

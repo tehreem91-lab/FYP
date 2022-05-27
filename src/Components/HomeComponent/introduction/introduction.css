@@ -1,0 +1,55 @@
+.intro_heading
+{
+    margin-top: 150px;
+    padding: 30px;
+}
+.intro_main_heading
+{
+   color: #0d355f;
+   font-weight: bold;
+}
+.sub_heading
+{
+    font-size: 17px;
+    line-height: 30px;
+}
+.intro_btn1
+{
+    background-color: #0f437b;
+    padding: 10px 15px 10px 15px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+.intro_btn2
+{
+    background-color: #fe5522a9;
+    padding: 10px 15px 10px 15px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+
+}
+.intro_btn1 .intro_btn2:hover
+{
+    cursor: pointer;
+    color: white;
+}
+.intro_image
+{
+    margin-top: 2px;
+}
+@media screen and (max-width: 768px) {
+    .intro_heading
+    {
+        margin-top: 70px;
+    } 
+    .sub_heading
+{
+    font-size: 14px;
+} 
+
+    
+}

@@ -1,0 +1,70 @@
+ .slide1
+ {
+  
+  height:85vh;
+  position: relative;
+  margin-top: 5%;
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url('/src/Assests/Home/Home_image2.jpg');  
+  background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed; 
+  
+ }
+ .slide2
+ {
+    height:85vh;
+    position: relative;
+    margin-top: 5%;
+   background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url('/src/Assests/Home/Home_image3.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; 
+ 
+ }
+ .slide3
+ {
+   height:85vh; 
+   position: relative;
+   margin-top: 5%;
+   background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url('/src/Assests/Home/home_image1.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; 
+
+ }
+ 
+ .heading 
+ {
+     color:white;
+     text-align: center;
+     padding-top: 370px;
+     font-size: 4rem;
+     text-transform: uppercase;
+ }
+ @media screen and (max-width: 768px) {
+
+    .slide1
+    {
+      height: 64vh;
+    }
+    .slide2
+    {
+        height: 64vh;
+    }
+    .slide3
+    {
+        height: 64vh;
+    }
+    .heading 
+    {
+      
+        padding-top: 300px;
+        font-size: 3rem;
+       
+    }
+} 
+
+ 

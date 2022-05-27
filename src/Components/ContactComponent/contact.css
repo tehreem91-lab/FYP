@@ -1,0 +1,122 @@
+/* .main-contact
+{
+     height: 200vh; 
+     bottom: 10px;
+    position: relative ;
+    background-color: whitesmoke;
+ 
+} */
+body{
+    background-color: whitesmoke;
+}
+
+.contact-heading
+{
+    margin: auto;
+    color: #0d355f;
+    justify-content: center;
+    text-align: center;
+}
+.inner_container
+{
+    border-radius: 30px;
+    background-color: white;
+}
+.inner_contact
+{
+    margin-top: 5%;
+}
+
+.right-contact
+{
+    padding:0px 25px 0px 15px;
+   
+}
+.contact_label {
+    color:#0d355f;
+    margin-top: 50px;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+.contact_input
+{
+    width: 100%;
+    border: none;
+    color: white;
+    border-bottom: 2px solid #0d355f ;
+    background: none;
+    
+}
+.left-contact 
+{
+    padding: 30px;
+    background: linear-gradient(rgba(108, 172, 240, 0.795),rgba(20, 75, 133, 0.795)),url('/src/Assests/contact.jpg');  
+    border-radius: 3%;
+}
+.contact-Link
+{
+    color: white;
+    margin-top: 50px;
+}
+.contact-icon
+{
+
+    position: relative;
+    bottom: 5px;
+    color: #ffcc00;
+}
+.contact-social-icon
+{
+    color: white;
+    padding: 7px;
+    font-size: 20px;
+    margin-top: 50px;
+    border-radius: 50%;
+    border: 1px solid #ffcc00;
+}
+.contact-social-icon:hover
+{
+    cursor: pointer;
+    background-color: #ffcc00;
+}
+.contact-button
+{
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    align-items: center;
+    background-color: #0d355f;
+    padding: 10px 15px 10px 15px;
+}
+.C_B
+{
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) 
+ {
+    .inner_contact
+    {
+        margin-top:10%;
+     }
+ .right-contact
+{
+    padding:0px 25px 0px 25px;
+   
+}
+.contact-button
+{
+    margin-top: 20px;   
+}
+.contact-Link
+{
+    font-size: 17px;
+}
+    
+}

@@ -1,0 +1,281 @@
+.about_upper
+{
+    position: relative;
+    margin-top: 6%;
+
+}
+/* about_upper left side */
+.about_left
+{
+    margin-top: 118px;
+    padding: 25px;
+}
+.about_main_heading
+{
+    color: #0d355f;
+   font-weight: bold;
+   font-size: 30px;
+   margin-top: 10px;
+   line-height: 40px;
+
+}
+.about_sub_heading
+{
+    font-size: 17px;
+    line-height: 30px;
+    margin-top: 5px;
+   text-align: justify;
+
+
+}
+/* about upper right */
+.abouttop_image
+{
+    margin-left: 50px;
+    margin-top: 0px;
+}
+/* 2nd part */
+.about_back
+{
+    height: 450px;
+    /* margin-top: 30px; */
+   background: linear-gradient(rgba(6, 48, 92, 0.795),rgba(11, 61, 113, 0.795)),url('../../Assests//About/about2.jpeg'); 
+   background: cover;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+.aboutback_heading
+{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+.about_back1
+{
+  
+    position: relative;
+    top: 80px;
+    padding: 10px;
+   
+}
+.table_section
+{
+    margin-top: 60px;
+}
+.table_icon
+{
+   margin-left:50px;
+   font-size: 35px;
+   color: #ffcc00;
+}
+.table_heading
+{
+    color: white;
+    font-size: 25px;
+}
+.featuretutor_image {
+    width: 380px;
+    height: 350px;
+    margin: auto;
+  }
+  .featuretutor_card_text {
+    padding: 10px;
+    width: 380px;
+    margin: auto;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+  }
+  .feature_name {
+    font-size: 25px;
+    color: chocolate;
+    font-weight: bold;
+  }
+  .feature_button {
+    padding: 7px 15px 7px 15px;
+    color: white;
+    border-radius: 10px;
+    background-color: #f1984ae0;
+  }
+  .featuretutor_back {
+    margin-top: 80px;
+  }
+  /* .feature_text {
+    justify-content: center;
+    text-align: center;
+  } */
+  .feature_heading {
+    font-size: 35px;
+    font-weight: bold;
+    color: #0d355f;
+  }
+  .main_apply {
+    margin: auto;
+    height: 65vh;
+    margin-top: 30px;
+    border-radius: 5px;
+    background: url("/src/Assests/About/tutor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .apply_now {
+    margin-left: 50%;
+    position: relative;
+    top: 70px;
+    border-radius: 5px;
+    text-align: justify;
+    padding: 50px;
+  }
+  .apply_back {
+    margin-top: 6%;
+  }
+  .apply_heading {
+    font-weight: bold;
+    font-size: 25px;
+    color: #0d355f;
+  }
+  .course
+{
+  height:80vh;
+  position: relative;
+  margin-top: 8%;
+  background: linear-gradient(rgba(59, 58, 58, 0.6),rgba(62, 59, 59, 0.7)),url('/src/Assests/Home/course.jpg');  ;
+  background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+.course_heading
+{
+  width: 30%;
+  position: relative;
+  top: 35%;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.course_button
+{
+  padding: 12px 20px 12px 20px;
+  border: none;
+  font-size: 17px;
+  position: relative;
+  top: 98%;
+  border-radius: 7px;
+  color: white;
+  background-color: #f46b3e;
+}
+.main_courseheading 
+{
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .about_upper
+    {
+        position: relative;
+        margin-top: 20%;
+    }
+    .about_back
+    {
+        margin-top: 90px;
+        height: 750px;
+    }
+    .about_back1
+    {
+      margin-top: 40px;
+    }
+    .about_left
+    {
+        margin-top:0px;
+       
+    }
+    .about_main_heading
+    {
+        font-size: 23px;
+    }
+.about_sub_heading
+{
+    font-size: 13px;
+    line-height: 25px;
+}
+.abouttop_image
+{
+    margin:auto;
+} 
+.aboutback_heading
+{
+    font-size: 25px;
+   
+} 
+.about_back1
+{
+    position: relative;
+    top: 10%;
+    padding: 35px;
+}
+.table_icon
+{
+    margin-left: 0px;
+    font-size: 30px;
+    margin-top: 14px;
+}
+.table_heading
+{
+ 
+    margin-top: 14px;
+    font-size: 20px;
+}
+.featuretutor_card {
+    margin-top: 25px;
+  }
+  .featuretutor_image {
+    width: 300px;
+    height: 300px;
+  }
+  .featuretutor_card_text {
+    width: 300px;
+    margin: auto;
+  }
+  .feature_text {
+    width: 250px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+
+  .feature_name {
+    font-size: 20px;
+  }
+  .feature_heading {
+    font-size: 30px;
+  }
+  .apply_back {
+    margin-top: 20%;
+  }
+  .apply_now {
+    top: 0px;
+    margin-left: 0px;
+  }
+  .main_apply {
+    background: url("/src/Assests/About/change.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .course
+  {
+    height:70vh;
+    margin-top: 100px;
+  
+  }
+  .course_heading
+  {
+    width: 60%;
+  }
+ 
+ 
+ 
+    
+}
